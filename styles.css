@@ -99,3 +99,143 @@ form{
     margin:0 22px;
 
 }
+/*section one related styles*/
+
+
+
+
+.container{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container h1, .section-tow h1, .why-text h1{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.container p, ul li, p, .why-text{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 10px;
+font-weight: 400;
+line-height: 26px;
+}
+
+
+.container-img img{
+    width: 464px;
+    height: auto;
+}
+.container-text *{
+    margin-bottom: 22px;
+}
+
+
+.section-tow *, .why-text *{
+ max-width: 552px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.img1 img{
+    width: 100%;
+}
+.img2 img{
+    width: 100%;
+}
+.img3{
+    width: 100%;
+}
+.img-container2{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.img-container3{
+    display: flex;
+    justify-content: space-between;
+}
+.img6{
+width: 70%;
+
+}
+.img7{
+width: 90%;
+}
+.img-two, .img-one, .img-three{
+    width: 350px;
+}
+.img-two{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 17px;
+}
+.img-one{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 27px;
+}
+.two-img{
+    display: flex;
+    justify-content: space-around;
+}
+.img-three{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+    margin:  0 auto;
+    
+    padding: 27px;
+}
+.why, .img-one, .img-two, .img-three{
+    margin-bottom: 20px;
+}
+.one, .two, .three{
+    font-size: 80px;
+}
+
+
+
+
+
+.video-text *{
+    max-width: 440px;
+    margin-bottom: 19px;
+}
+.vedio-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*newsletter section*/
+
+.newslatter-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.newletter-text{
+    border: 1px solid #FF5400;
+    padding: 26px;
+}
+form input{
+   padding: 12px 145px 12px 10px;
+}
+.button{
+    padding: 12px 132px;
+}
+
+/*newsletter section end*/
