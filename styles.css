@@ -239,3 +239,58 @@ form input{
 }
 
 /*newsletter section end*/
+
+/*footer section start*/
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-container{
+    max-width: 660px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+}
+
+/*footer section end*/
+
+
+/* media query for mobile device */
+
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+    }
+    .banner{
+        width: 450px;
+        height: 480px;
+        padding: 10px;
+    }
+    .form input button{
+        margin-bottom: 10px;
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+    .banner p{
+        text-align: center;
+        width: 280px;
+        margin: 0 auto;
+    }
+    .banner .form input{
+        display: block;
+        margin-bottom: 27px;
+    }
+    button{
+        margin-left: 30px;
+        
+    }
+    .container, .img-container, .img-container2, .img-container3,
+     .two-img, .vedio-container, .newslatter-container{
+        flex-direction: column;
+    }
+    .img-container, .img-container2, .img-container3 img{
+     width: 100%;
+    }
+    
+}
